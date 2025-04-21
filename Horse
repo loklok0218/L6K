@@ -1,0 +1,15 @@
+                <td>${score.toFixed(1)}%</td>
+            </tr>`;
+        });
+    html += `</table>`;
+
+    return html;
+}
+
+function clearAll() {
+    document.getElementById('inputData').value = '';
+    document.getElementById('result').innerHTML = '';
+}
+</script>
+</body>
+</html>
